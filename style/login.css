@@ -1,0 +1,96 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 527781 */
+  src: url('http://at.alicdn.com/t/font_527781_acv3332g91ss8aor.eot');
+  src: url('http://at.alicdn.com/t/font_527781_acv3332g91ss8aor.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_527781_acv3332g91ss8aor.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_527781_acv3332g91ss8aor.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_527781_acv3332g91ss8aor.svg#iconfont') format('svg');
+}
+.iconfont {font-family: "iconfont" !important;
+			font-size: 16px;font-style: normal;-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;
+			color: #707473;
+		}
+*,:before,:after{ margin:0; padding:0; box-sizing:border-box;}
+html,body,div,p,ul,li,ol,dl,dt,dd,a,img,b,i,em,strong,span,h1,h2,h3,h4,h5,h6,form,input,select,label,textarea,button,fieldset,legend,optgroup,blockquote,sub,sup,pre,table,tr,td,th,tbody,thead,tfoot,u,s,caption,nav,header,article,section,footer,aside,figure,figcaption,audio,video,source{ margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6,em,i,strong,b{ font-weight:normal; font-style:normal;font-size:100%;}
+
+ul,ol,li{ list-style:none;}
+
+fieldset,img{ border:0 none;vertical-align: middle;/*垂直居中*/}
+table{ border-collapse:collapse;/*边线重叠*/ border-spacing:0;}
+input, select, textarea { font: 12px/20px  Arial, "微软雅黑";}
+input,button,select,textarea{ outline:none}
+:foucs{ outline:none;}/*表单获得焦点，去掉蓝色框线*/
+/*超链接*/
+a {text-decoration: none; }
+a:link, a:visited{text-decoration: none;}
+a:hover {text-decoration:none;}
+a:active { text-decoration: none;}
+
+#txt1{display: block;}
+#txt2{display: none;}
+
+
+.header{width: 100%;height: 50px;background:#F7EAD1;}
+.header .header-wrap{width:980px;height:50px; margin:0 auto}
+.header-wrap img{width:980px;height:50px;}
+
+.login-header{width: 100%;height: 87px;}
+.login-header .login-header-wrap{width: 1200px;height: 87px;margin: 0 auto;}
+.logo img{width: 160px;height: 52px;float: left;}
+.return{width: 120px;height: 57px;float: right;padding-top: 40px;}
+.return a{font-size: 12px;color: #333;padding: 0 5px;}
+.return a:hover{color: #cf000e}
+
+.main-bg-red{width: 100%;height: 598px;background: #cf000e;margin-bottom:40px;position: relative;}
+.content{width: 1070px;height: 454px;margin:0 auto;position: absolute;top: 72px;left: 50%;margin-left: -540px;}
+.content .Left{width: 620px;height: 454px;float: left}
+.content .Right{width: 360px; height: 444px;background: white;float: right;}
+.content .Right .yahei{width: 306px;height: 394px;margin:27px auto}
+.content .Right .yahei .switch-type{width: 306px;height: 51px;position: relative;font-size: 16px;
+font-weight: bold;color: #888;border-bottom: 1px solid #bbb;}
+.switch-type li{position: relative;float: left;width: 153px;text-align: center;padding: 13px 0 14px 0;cursor: pointer;}
+/*.switch-weixin{position: relative;float: left;width: 153px;text-align: center;padding: 13px 0 14px 0;cursor: pointer;}*/
+.switch-type li.tab_on{color:#cf000e; border-bottom: 2px solid #cf000e;}
+.dis{ display: block; }
+.undis{ display: none; }
+
+#txt1 .input-group{position: relative;height: 40px;border: 1px solid #ddd;overflow: hidden;line-height: 40px;margin-top: 25px;}
+#txt1 .input-group i{width: 19px;height: 20px;float: left;color: #CCCCCC;margin:0 10px;font-size: 20px;}
+#txt1 .input-group .input1{width: 254px;float: left;margin-top:9px;height: 20px;border: 0 none;font-size: 14px;color:#999}
+#txt1 .input-group .input2{width: 148px;float: left;margin-top:9px;height: 20px;border: 0 none;font-size: 14px;color:#999}
+#txt1 .input-group .input-group-btn{width: 104px;height: 28px;font-size:12px;background: #f0f0f0;color: #333;
+text-align: center;line-height: 28px;border-radius: 3px;float: left;margin-top: 5px;}
+.submit-btn{width: 306px;height:42px;line-height: 42px;text-align: center;color: white;font-size: 18px;background: #cf000e;display: block;}
+.other-login{width: 306px;height: 28px;margin: 60px 0 15px 0;}
+.other-login i{font-size:26px;float: left;margin-right:5px}
+.other-login span{line-height: 28px;float: left;font-size: 12px;color: #999;margin-right: 5px;}
+
+.icon{width: 100%;height: 150px;background: #F8F8F8;margin-top: 20px;}
+.icon{width: 100%;height: 152px;margin: 0 auto;}
+._view_{width: 980px;height: 80px;margin: 0 auto;}
+.icon a{width: 137px;height: 80px;display: block;float: left;text-align: center;text-decoration: none;margin-top: 40px;}
+.icon i{width: 100%;height: 100%;font-size: 32px;color:#cf000e;}
+.icon span{width: 100%;display: inline-block;color: #000;font-size: 14px;text-align: center;margin-top:10px;}
+
+.footer{width: 100%;height: 97px;background: #1f1f1f;}
+.footer-copyright{width: 1190px;height: 97px;border: 1px solid transparent;
+  font-size: 12px;color: #999;margin-left: 5px;line-height:25px;position:relative;margin: 0 auto;padding-top: 20px;}
+.footer-copyright .copyrights li a{text-decoration: none;color: #999;margin-right: 3px;}
+.footer-copyright .copyrights li a:hover{color:#cf000e;}
+.footer-copyright .credit{width: 388px;height: 40px;float: right;position: absolute;top:5px;right: 0px;}
+.footer-copyright .credit li{width: 97px;height: 40px; float: left;line-height: 40px;}
+.footer-copyright .credit a{text-decoration: none;color: #999}
+.footer-copyright .credit a:hover{color:#cf000e;}
+.footer-copyright .credit li i{color:#cf000e;font-size: 22px; float: left;margin-top: 20px;}
+.footer-copyright .credit li span{width:65px;height: 40px;line-height: 40px;float: left;margin-left: 5px;
+  font-size: 12px;margin-top: 20px;}
+
+
+/*#block2:hover{color: #cf000e;margin-bottom: -1px;color: #cf000e;border-bottom: 2px solid #cf000e}*/
+#txt2 .qr-code{width: 306px;height: 174px;margin-top: 50px;text-align: center;}
+#txt2 .qr-code img{width: 174px;height: 174px;}
+#txt2 .qr-code p{font-size: 12px;}
+

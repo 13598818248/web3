@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+#FchatMsg {z-index: 298;width: 145px;height:90px;background: url(../images/img.png) no-repeat;background-position-x: 0%;
+background-position-y: 0%;background-position: 0 -1022px;position: relative;padding: 12px;position: fixed;right:2px;top: 115px;}
+#FchatMsg .msg_title {font-size: 14px;color: #333;}
+#FchatMsg a {font-weight: bold;font-size: 13px;color: #e5134e;}
+
+#sidebar-container {position: fixed;z-index: 298;right: 25px;top: 210px;width: 72px;}
+#sidebar-list {margin: 0;padding: 0;border: 0;outline: 0;font-size: 100%;vertical-align: baseline;}
+#sidebar-list li {position: relative;color: #808080;margin-bottom:10px;background: none;}
+#sidebar-list li .prompt {opacity: 0;right: 100px;top: 20px;position: absolute;color: #FFFFFF;line-height: 36px;
+text-align: center;width: 152px;height: 36px;background-image: url(images/img.png);background-position: 0 -1116px;}
+#sidebar-list .kefu .content {height: 79px;background-position: 0 -439px;}
+#sidebar-list .address-show .content {height: 72px;background-position: 0 -517px;}
+#sidebar-list .cart-show .content {height: 72px;background-position: 0 -806px;}
+#sidebar-list .content {width: 72px;height: 72px;cursor: pointer;background: url(images/img.png) no-repeat;}
+#sidebar-list li .name {width: 100%;text-align: center;position: absolute;bottom: 8px;font-size: 12px;}
+#sidebar-list .cart-show .num {color: #FFFFFF;background-color: #ff5a65;position: absolute;top: 12px;right: 15px;border-radius: 8px;
+text-align: center;line-height: 16px;padding: 0 4.5px;}
+#sidebar-list .kefu .content:hover{height: 79px;background-position: 0 -360px;color: white}
+#sidebar-list .address-show .content:hover{height: 72px;background-position: 0 -734px;color: white}
+#sidebar-list .cart-show .content:hover{height: 72px;background-position: 0 -144px;color: white}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 527781 */
+  src: url('http://at.alicdn.com/t/font_527781_161b8o2l9iq6ko6r.eot');
+  src: url('http://at.alicdn.com/t/font_527781_161b8o2l9iq6ko6r.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_527781_161b8o2l9iq6ko6r.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_527781_161b8o2l9iq6ko6r.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_527781_161b8o2l9iq6ko6r.svg#iconfont') format('svg');
+}
+.iconfont {font-family: "iconfont" !important;
+			font-size: 16px;font-style: normal;-webkit-font-smoothing: antialiased;
+			-webkit-text-stroke-width: 0.2px;-moz-osx-font-smoothing: grayscale;
+			color: #707473;
+		}
+*,:before,:after{ margin:0; padding:0; box-sizing:border-box;}
+html,body,div,p,ul,li,ol,dl,dt,dd,a,img,b,i,em,strong,span,h1,h2,h3,h4,h5,h6,form,input,select,label,textarea,button,fieldset,legend,optgroup,blockquote,sub,sup,pre,table,tr,td,th,tbody,thead,tfoot,u,s,caption,nav,header,article,section,footer,aside,figure,figcaption,audio,video,source{ margin:0; padding:0;}
+
+h1,h2,h3,h4,h5,h6,em,i,strong,b{ font-weight:normal; font-style:normal;font-size:100%;}
+
+ul,ol,li{ list-style:none;}
+
+fieldset,img{ border:0 none;vertical-align: middle;/*垂直居中*/}
+table{ border-collapse:collapse;/*边线重叠*/ border-spacing:0;}
+input, select, textarea { font: 12px/20px  Arial, "微软雅黑";}
+input,button,select,textarea{ outline:none}
+:foucs{ outline:none;}/*表单获得焦点，去掉蓝色框线*/
+/*超链接*/
+a {text-decoration: none; }
+a:link, a:visited{text-decoration: none;}
+a:hover {text-decoration:none;}
+a:active { text-decoration: none;}
+	</style>
+</head>
+<body>
+<div id="FchatMsg" class="">
+<h3 msgtype="1" class="msg_title" id="JS_msg_title">有新消息！</h3>
+<div class="msg_content" id="JS_msg_content">
+<a href="">☆__新年焕新家__☆到手多少钱？问我！</a>
+</div>
+
+<div id="sidebar-container">
+  <ul id="sidebar-list">
+	<li class="kefu show" style="">
+	<div class="prompt">
+	</div>
+	<div class="content">
+	<div class="name">客服</div>
+	</div>
+	</li>
+	<li class="address-show" style="">
+	<div id="FchatPoMsg"></div>
+	<div class="prompt">
+	</div>
+	<div class="content">
+	<div class="name">体验馆</div>
+	</div>
+	</li>
+	<li id="JS-sidebar-cart" class="cart-show" style="">
+	<div class="prompt">
+	</div>
+	<div class="content">
+	<div class="name">购物车</div>
+	<div class="num">0</div>
+	</div>
+	</li>
+  </ul>
+</div>
+
+	
+</body>
+</html>

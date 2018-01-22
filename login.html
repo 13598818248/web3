@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>用户中心Meilele</title>
+	<link rel="stylesheet" href="style/login.css">
+	<link rel="shortcut icon" href="favicon.ico">
+</head>
+<body>
+<!-- header -->
+
+<div class="header">
+	<div class="header-wrap">
+	    <img src="images/1.jpg" alt="">
+	</div>
+</div>
+<!-- header end -->
+
+<header class="login-header">
+	<div class="login-header-wrap clearfix" style="padding: 15px 0;">
+		<div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+		<div class="return"><a href="index.html">返回首页</a>|<a href="">帮助中心</a></div>
+	</div>
+</header>
+
+<div class="main-bg-red">
+	<div class="content">
+		<div class="Left"><img src="images/100.png" alt=""></div>
+		<div class="Right">
+			<div class="yahei">
+				<div class="switch-type">
+					<li class="tab_on"  
+					id="block1" onclick="show(1)">快捷登录/注册</li>
+					<li  id="block2" onclick="show(2)">微信登录</li>
+				</div>
+					<div id="txt1" class="dis">
+						<div class="input-group">
+							<label for="">
+							<i class="iconfont">&#xe682;</i>
+							</label>
+							<input class="input1" type="text" placeholder="手机号">
+						</div>
+						<div class="input-group">
+							<label for="">
+							<i class="iconfont">&#xe6f4;</i>
+							</label>
+							<input class="input2" type="text" placeholder="短信验证码">
+							<a class="input-group-btn" href="">获取短信验证码</a>
+						</div>
+						<a class="submit-btn" href="" style="margin-top: 50px;">登录/注册</a>
+					</div>
+					<div id="txt2" class="undis">
+						<div class="qr-code">
+						<img src="images/7.jpg" alt="">
+						<p>微信扫一扫，快速登录</p>
+						</div>
+					</div>
+				<div class="other-login clearfix">
+					<a href=""><i class="iconfont" style="color: #FC78A0">&#xe654;</i><span>扫码登录</span></a>
+					<a href=""><i class="iconfont" style="color: #5ECCF8">&#xe62b;</i><span>账号登录</span></a>
+					<a href=""><i class="iconfont" style="color: #4DE1C2">&#xe612;</i><span>QQ登录</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="icon">
+	<div class="_view_">
+	<a href=""><i class="iconfont">&#xe6fe;</i><span>网商+体验馆</span></a>
+	<a href=""><i class="iconfont">&#xe607;</i><span>100%正品</span></a>
+	<a href=""><i class="iconfont">&#xe632;</i><span>双重质检</span></a>
+	<a href=""><i class="iconfont">&#xe62e;</i><span>全球化采购</span></a>
+	<a href=""><i class="iconfont">&#xe631;</i><span>无理由退货</span></a>
+	<a href=""><i class="iconfont">&#xe604;</i><span>贵就赔</span></a>
+	<a href=""><i class="iconfont">&#xe60a;</i><span>万千口碑</span></a>
+	</div>
+</div>
+<!-- icon end -->
+
+<!-- footer -->
+<div class="footer">
+	<div class="footer-copyright">
+	<ul class="copyrights">
+		<li>
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>|
+		<a href="">家居图片</a>
+		</li>
+		<li>
+		<span>© 2005-2016 美乐乐 版权所有，并保留所有权利。</span>
+		<a href="">ICP备案证书号：粤ICP备08008334号</a>
+		</li>
+	</ul>
+	<ul class="credit">
+		<a href=""><li><i class="iconfont">&#xe651;</i><span>诚信网站</span></li></a>
+		<a href=""><li><i class="iconfont">&#xe651;</i><span>示范企业</span></li></a>
+		<a href=""><li><i class="iconfont">&#xe707;</i><span>信用评价</span></li></a>
+		<a href=""><li><i class="iconfont">&#xe63d;</i><span>备案信息</span></li></a>
+	</ul>
+	</div>
+</div>
+<script type="text/javascript">
+     // var o1=document.getElementById("txt1");
+     // var o2=document.getElementById("txt2");
+     //  function show1(){
+     //  	o1.style.display="block";
+     //  	o2.style.display="none";
+     //  }
+     //  function show2(){
+     //  	o1.style.display="none";
+     //  	o2.style.display="block";
+     //  }
+     function show(id){
+        document.getElementById("block1").className="";
+        document.getElementById("block2").className="";
+        document.getElementById("block"+id).className="tab_on";
+        document.getElementById("txt1").style.display="none";
+        document.getElementById("txt2").style.display="none";
+        document.getElementById("txt"+id).style.display="block";
+    	}
+</script>
+</body>
+</html>
